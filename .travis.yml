@@ -1,6 +1,0 @@
-language : java
-script : "mvn -f git_ornek1/pom.xml clean test verify"
-jdk: 
-   - openjdk8
-after_success:
-   - bash <(curl -s https://codecov.io/bash)
