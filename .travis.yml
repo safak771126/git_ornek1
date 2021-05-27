@@ -1,5 +1,5 @@
 language : java
-script : "mvn -f Ders7MavenJUnitProje/pom.xml clean test verify"
+script : "mvn -f git_ornek1/pom.xml clean test verify"
 jdk: 
    - openjdk8
 after_success:
